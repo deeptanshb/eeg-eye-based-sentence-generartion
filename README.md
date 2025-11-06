@@ -112,10 +112,9 @@ The dataset integrates multimodal information:
 
 | Metric | Score |
 |--------|--------|
-| Final Train Loss | **0.71** |
-| Validation Loss | **0.68** |
-| BLEU | **0.17** |
-| ROUGE-L F1 | **0.43** |
+| Final Train Loss | **1.51** |
+| Validation Loss | **1.49** |
+| BLEU | **0.61** |
 
 Loss decreased smoothly across epochs, confirming stable convergence.
 
@@ -125,9 +124,9 @@ Loss decreased smoothly across epochs, confirming stable convergence.
 
 | Generated Sentence | Ground Truth |
 |--------------------|---------------|
-| He had been educated at Oxford and his closest friends and outlook on life were British. | He had been educated at Oxford and his closest friends and outlook on life were British. |
-| While a printing apprentice he wrote under the pseudonym of ‘Silence Dogood’. | While a printing apprentice he wrote under the pseudonym of ‘Silence Dogood’. |
-| Simon has been married three times; he is currently married to Edie Brickell whom he wed on May 30 1992. | Simon has been married three times; he is currently married to Edie Brickell whom he wed on May 30 1992. |
+| he had been educated at oxford and his closest friends and outlook on life were british. | He had been educated at Oxford and his closest friends and outlook on life were British. |
+| while a printing apprentice he wrote under the pseudonym of ‘silence dogood’. | While a printing apprentice he wrote under the pseudonym of ‘Silence Dogood’. |
+| simon has been married three times; he is currently married to edie brickell whom he wed on may 30 1992. | Simon has been married three times; he is currently married to Edie Brickell whom he wed on May 30 1992. |
 
 ---
 
